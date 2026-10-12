@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Ninon
 """Per-file metadata cache. No prompts, replies, or tool output are kept."""
 

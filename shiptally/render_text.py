@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Ninon
 """Plain terminal ledger and a short summary of spend and output."""
 import unicodedata

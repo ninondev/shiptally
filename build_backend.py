@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Ninon
 """Small PEP 517 backend so offline installs need no build dependencies."""
 import base64
@@ -17,7 +17,7 @@ DIST = "shiptally-0.1.0.dist-info"
 def metadata():
     return ("Metadata-Version: 2.4\nName: shiptally\nVersion: 0.1.0\n"
             "Summary: Join local AI coding usage to git output, per project.\n"
-            "Author: Ninon\nRequires-Python: >=3.9\nLicense-Expression: GPL-3.0-only\n"
+            "Author: Ninon\nRequires-Python: >=3.9\nLicense-Expression: MIT\n"
             "License-File: LICENSE\nDescription-Content-Type: text/markdown\n"
             "Project-URL: Repository, https://github.com/ninondev/shiptally\n\n"
             + (ROOT / "README.md").read_text(encoding="utf-8"))

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Ninon
 [build-system]
 requires = []
@@ -10,7 +10,7 @@ name = "shiptally"
 version = "0.1.0"
 description = "Join local AI coding usage to git output, per project."
 requires-python = ">=3.9"
-license = "GPL-3.0-only"
+license = "MIT"
 authors = [{name = "Ninon"}]
 readme = "README.md"
 classifiers = ["Programming Language :: Python :: 3", "Environment :: Console"]

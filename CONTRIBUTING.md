@@ -12,5 +12,4 @@ nice -n 10 python3 -m unittest -v
 Use synthetic logs in tests. Do not send your session logs, private paths, or
 message text in an issue or pull request.
 
-Before a pull request can be merged, add the CLA comment shown in [CLA.md](CLA.md).
-The code is under GPL-3.0-only. See [LICENSE](LICENSE).
+The code is under the MIT License. See [LICENSE](LICENSE).

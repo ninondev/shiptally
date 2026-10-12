@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: MIT
 # Copyright (c) 2026 Ninon
 """Render one offline account book, with no fetched fonts, scripts, or images."""
 from html import escape
@@ -227,7 +227,7 @@ update();""".replace("LIGHT", "'浅色模式'" if zh else "'Light theme'").repla
         answer = (f"${summary.get('list_price_usd', 0):,.2f} list price over {summary.get('active_days', 0)} days → "
                   f"{number(summary.get('commits', 0))} commits in {number(summary.get('repo_count', 0))} repositories.")
     chart_caption = tr("Each column uses its own scale. USD is a list-price equivalent. Tokens are output tokens.", "每列分别缩放。美元为标价等值。Token 为输出 token。")
-    return ("<!doctype html>\n<!-- SPDX-License-Identifier: GPL-3.0-only; Copyright (c) 2026 Ninon -->\n"
+    return ("<!doctype html>\n<!-- SPDX-License-Identifier: MIT; Copyright (c) 2026 Ninon -->\n"
             '<html lang="' + ('zh-CN' if zh else 'en') + '"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark">'
             '<title>shiptally · ' + tr("Account book", "账本") + '</title><style>' + CSS + '</style></head><body><main>'

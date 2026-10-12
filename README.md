@@ -258,8 +258,8 @@ HTML checks cover markup and fixed-column styles.
 
 ## Contribute and license
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). A CLA comment is required before merge.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Copyright (c) 2026 Ninon. Licensed under GPL-3.0-only. See [LICENSE](LICENSE).
+Copyright (c) 2026 Ninon. Licensed under MIT. See [LICENSE](LICENSE).
 
 If this was useful to you, a star helps other people find it.
